@@ -73,7 +73,7 @@ module Database.Zookeeper.CApi
        , c_zooSetDebugLevel
        ) where
 
-#include <zookeeper.h>
+#include <zookeeper/zookeeper.h>
 
 import Foreign.C
 import Foreign.Safe

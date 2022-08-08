@@ -18,7 +18,6 @@ source-repository head
 
 library
   ghc-options:         -rtsopts -W -Wall
-  include-dirs:        /usr/include/zookeeper
   build-depends:       base              (>= 4    && < 5)
                      , bytestring        (>= 0.10 && < 1)
                      , resource-pool
